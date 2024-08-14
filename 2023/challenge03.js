@@ -1,8 +1,8 @@
 /*
-  Challenge # 02
+  Challenge # 03
   Title: We start the factory
   Level: easy
-  Link: https://adventjs.dev/en/challenges/2023/2
+  Link: https://adventjs.dev/en/challenges/2023/3
 */
 
 function manufacture(gifts, materials) {
