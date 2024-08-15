@@ -1,20 +1,15 @@
 /*
   Challenge # 03
-  Title: We start the factory
-  Level: easy
+  Title: The naugthy elf
+  Level: Easy
   Link: https://adventjs.dev/en/challenges/2023/3
 */
 
-function manufacture(gifts, materials) {
-  const giftsCanBeMade = []
-
-  gifts.forEach(gift => {
-    if (gift.split('').every(letter => {
-      return materials.includes(letter);
-    })) {
-      giftsCanBeMade.push(gift);
+function findNaughtyStep(original, modified) {
+  for(let i = 0; i < Math.max(original.length, modified.length); i++) {
+    if (original[i] !== modified[i]) {
+      return original.length <= modified.length ? modified[i]: original[i]
     }
-  });
-
-  return giftsCanBeMade;
+  }
+  return ''
 }

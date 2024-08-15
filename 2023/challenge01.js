@@ -1,20 +1,17 @@
 /*
-  Challenge # 03
-  Title: The naugthy elf
-  Level: easy
+  Challenge # 01
+  Title: First gift repeated!
+  Level: Easy
   Link: https://adventjs.dev/en/challenges/2023/1
 */
 
-function findNaughtyStep(original, modified) {
-  if (original === modified) return '';
-
-  for(let i = 0; i < Math.max(original.length, modified.length); i++) {
-    if (original[i] !== modified[i]) {
-      if (original.length <= modified.length) {
-        return modified[i]
-      } else {
-        return original[i]
-      }
-    }
+function findFirstRepeated(gifts) {
+  const ids = new Set();
+  
+  for (const gift of gifts) {
+    if (ids.has(gift)) return gift;
+    ids.add(gift);
   }
+
+  return -1;
 }
