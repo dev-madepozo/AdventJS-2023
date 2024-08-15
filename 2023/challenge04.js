@@ -1,7 +1,7 @@
 /*
   Challenge # 04
   Title: Turn the parentheses around
-  Level: medium
+  Level: Medium
   Link: https://adventjs.dev/en/challenges/2023/4
 */
 
