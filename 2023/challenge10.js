@@ -6,15 +6,13 @@
 */
 
 function createChristmasTree(ornaments, height) {
-  const totalOrnaments = ornaments.repeat(height * 5).split('');
+  ornaments = ornaments.repeat(height * 4).split('');
   const tree = [];
 
-  for (let i = 0; i < height; i++) {
-    tree.push(
-      ' '.repeat(height - i - 1) +
-      totalOrnaments.splice(0, i + 1).join(' ')
-    )
+  for (const i in Array.from({ length: height })) {
+    tree[i] = ' '.repeat(height - 1 - i) + ornaments.splice(0, +i + 1).join(' ')
   }
-  tree.push(' '.repeat(height - 1) + '|\n')
+
+  tree[tree.length] = ' '.repeat(height - 1) + '|\n'
   return tree.join('\n');
 }
