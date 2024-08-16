@@ -6,15 +6,12 @@
 */
 
 function adjustLights(lights) {
-  let ballColor = '🟢'
+  let deltas = [0, 0]
 
-  const firstComaprison = 
-    lights.filter((ball, x) => x % 2 === 0 && ball !== ballColor).length
-    + lights.filter((ball, x) => x % 2 === 1 && ball === ballColor).length
+  for (const [k, v] of lights.entries()) {
+    deltas[0] += !!(!(k % 2) && v !== '🟢' || k % 2 && v === '🟢')
+    deltas[1] += !!(!(k % 2) && v === '🟢' || k % 2 && v !== '🟢')
+  }
 
-  const secondComaprison = 
-    lights.filter((ball, x) => x % 2 === 0 && ball === ballColor).length
-    + lights.filter((ball, x) => x % 2 === 1 && ball !== ballColor).length
-
-  return Math.min(firstComaprison, secondComaprison)
+  return Math.min(...deltas)
 }

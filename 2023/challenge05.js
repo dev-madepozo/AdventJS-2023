@@ -8,8 +8,8 @@
 function cyberReindeer(road, time) {
   const moves = [road]
 
-  for (let i = 0; i < time - 1 ; i++) {
-    const move = i === 4 ? moves[i].replaceAll('|', '*') : moves[i];
+  for (const i in Array.from({ length: time - 1})) {
+    const move = i == 4 ? moves[i].replaceAll('|', '*') : moves[i];
     moves.push(
       move.replace(
         /(S\.|S\*)/,

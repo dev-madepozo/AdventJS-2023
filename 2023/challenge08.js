@@ -6,29 +6,18 @@
 */
 
 function organizeGifts(gifts) {
-  const groupOfGifts = gifts.match(/\d+[a-z]/g)
   let result = ''
 
-  for (const gift of groupOfGifts) {
-    let totalGifts = parseInt(gift, 10)
-    const giftName = gift.at(-1)
-    let organizeBy = Math.floor(totalGifts / 50)
+  for (const item of gifts.match(/\d+[a-z]/g)) {
+    let [quantity, name] = item.match(/[a-zA-Z]+|[0-9]+/g)
 
-    if (organizeBy) {
-      result += `[${giftName}]`.repeat(organizeBy)
-      totalGifts %= 50
-    }
+    result += `[${name}]`.repeat(quantity / 50 | 0)
+    quantity %= 50
 
-    organizeBy = Math.floor(totalGifts / 10)
+    result += `{${name}}`.repeat(quantity / 10 | 0)
+    quantity %= 10
 
-    if (organizeBy) {
-      result += `{${giftName}}`.repeat(organizeBy)
-      totalGifts %= 10
-    }
-
-    if (totalGifts) {
-      result += `(${giftName.repeat(totalGifts)})`
-    }
+    result += quantity ? `(${name.repeat(quantity)})` : ''
   }
 
   return result
