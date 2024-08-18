@@ -6,16 +6,12 @@
 */
 
 function checkIsValidCopy(original, copy) {
-  if (original.length != copy.length) return false
-  for (const [i, c1] of [...original].entries()) {
-    const c2 = copy[i]
+  for (const [i, v] of [...original].entries()) {
     if (
-      (c1 == ' ' && c2 != ' ') ||
-      ('#+:. '.indexOf(c1) > '#+:. '.indexOf(c2)) ||
+      '#+:. '.indexOf(v) > '#+:. '.indexOf(copy[i]) ||
       (
-        c1?.charCodeAt() != c2?.charCodeAt() &&
-        c1?.charCodeAt() + 32 != c2?.charCodeAt() &&
-        !'#+:. '.includes(c2)
+        ![0, -32].includes(v?.charCodeAt() - copy[i]?.charCodeAt()) &&
+        !'#+:. '.includes(copy[i])
       )
     ) return false
   }

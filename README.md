@@ -15,7 +15,7 @@
 | 09  | 🚦 [Switch the lights](https://adventjs.dev/challenges/2023/9)               | 🟢    | 330   | [view](/2023/challenge09.js) |
 | 10  | 🎄 [Create your own Christmas tree](https://adventjs.dev/challenges/2023/10) | 🟢    | 250   | [view](/2023/challenge10.js) |
 | 11  | 📖 [The studious elves](https://adventjs.dev/challenges/2023/11)             | 🟠    | 25    | [view](/2023/challenge11js)  |
-| 12  | 📸 [Is it a valid copy?](https://adventjs.dev/challenges/2023/12)            | 🟠    | 180   | [view](/2023/challenge12js)  |
+| 12  | 📸 [Is it a valid copy?](https://adventjs.dev/challenges/2023/12)            | 🟠    | 240   | [view](/2023/challenge12js)  |
 | 13  | ⌚️ [Calculating the time](https://adventjs.dev/challenges/2023/13)           | 🟢    | 260   | [view](/2023/challenge13.js) |
 | 14  | 🚨 [Avoid the alarm](https://adventjs.dev/challenges/2023/14)                | 🟠    |       |                              |
 | 15  | ↔️ [Autonomous robot](https://adventjs.dev/challenges/2023/15)                | 🟠    | 70    | [view](/2023/challenge15.js) |
