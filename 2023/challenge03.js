@@ -1,15 +1,14 @@
 /*
   Challenge # 03
-  Title: The naugthy elf
+  Title: 😏 The naughty elf
   Level: Easy
   Link: https://adventjs.dev/en/challenges/2023/3
 */
 
 function findNaughtyStep(original, modified) {
-  for(let i = 0; i < Math.max(original.length, modified.length); i++) {
-    if (original[i] !== modified[i]) {
-      return original.length <= modified.length ? modified[i]: original[i]
-    }
+  if (original.length < modified.length) {
+    [original, modified] = [modified, original]
   }
-  return ''
+
+  return [...original].find((c, i) => c != modified[i]) ?? ''
 }

@@ -6,7 +6,7 @@
 | :-: | :-------------------------------------------------------------------------- | :---: | :---: | :--------------------------: |
 | 01  | 🎁 [First gift repeated!](https://adventjs.dev/challenges/2023/1)            | 🟢    | 260   | [view](/2023/challenge01.js) |
 | 02  | 🏭 [We start the factory](https://adventjs.dev/challenges/2023/2)            | 🟢    | 270   | [view](/2023/challenge02.js) |
-| 03  | 😏 [The naughty elf](https://adventjs.dev/challenges/2023/3)                 | 🟢    | 260   | [view](/2023/challenge03.js) |
+| 03  | 😏 [The naughty elf](https://adventjs.dev/challenges/2023/3)                 | 🟢    | 360   | [view](/2023/challenge03.js) |
 | 04  | 😵‍💫 [Turn the parentheses around](https://adventjs.dev/challenges/2023/4)     | 🟠    | 270   | [view](/2023/challenge04.js) |
 | 05  | 🛷 [Santa's CyberTruck](https://adventjs.dev/challenges/2023/5)              | 🟠    | 170   | [view](/2023/challenge05.js) |
 | 06  | 🦌 [The reindeer on trial](https://adventjs.dev/challenges/2023/6)           | 🟢    | 250   | [view](/2023/challenge06.js) |
@@ -26,7 +26,7 @@
 | 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 25    | [view](/2023/challenge20.js) |
 | 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    |       |                              |
 | 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 170   | [view](/2023/challenge22.js) |
-| 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 25    | [view](/2023/challenge23.js) |
+| 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 130   | [view](/2023/challenge23.js) |
 | 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    |       |                              |
-| 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 130   | [view](/2023/challenge25.js) |
+| 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 140   | [view](/2023/challenge25.js) |
 
