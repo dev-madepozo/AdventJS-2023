@@ -6,21 +6,20 @@
 */
 
 function distributeGifts(weights) {
-  const calculatedWeights = []
-  const calculateAverageWegiht = (values) => {
-    return Math.round(values.reduce((x, y) => x + y, 0) / values.length);
-  }
+  const distribution = []
 
-  for (let i = 0; i < weights.length; i++) {
-    calculatedWeights[i] = []
-    for (let j = 0; j < weights[i].length; j++) {
-      calculatedWeights[i][j] = calculateAverageWegiht([
-        weights[i - 1] ? weights[i - 1][j] : 0,
-        weights[i + 1] ? weights[i + 1][j] : 0, 
-        weights[i][j - 1], weights[i][j], weights[i][j + 1]
-      ].filter(Boolean))
+  for (const [i, row] of weights.entries()) {
+    distribution[i] = []
+    for (const [j, value] of row.entries()) {
+      let [up, right, down, left] = [
+        ~~weights[i-1]?.at(j), ~~row[j+1], ~~weights[i+1]?.at(j), ~~row[j-1]
+      ]
+      distribution[i][j] = Math.round(
+        (up + down + value + left + right) /
+        (!!up + !!down +!!value + !!left + !!right)
+      )
     }
   }
 
-  return calculatedWeights;
+  return distribution;
 }

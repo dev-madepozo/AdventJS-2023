@@ -23,10 +23,9 @@
 | 17  | 🛷 [Optimizing the rental](https://adventjs.dev/challenges/2023/17)          | 🟢    |       |                              |
 | 18  | 🔢 [The digital clock](https://adventjs.dev/challenges/2023/18)              | 🔴    | 70    | [view](/2023/challenge18.js) |
 | 19  | 💣 [Face the sabotage](https://adventjs.dev/challenges/2023/19)              | 🟠    | 25    | [view](/2023/challenge19.js) |
-| 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 25    | [view](/2023/challenge20.js) |
+| 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 190   | [view](/2023/challenge20.js) |
 | 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    |       |                              |
 | 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 170   | [view](/2023/challenge22.js) |
 | 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 130   | [view](/2023/challenge23.js) |
 | 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    |       |                              |
 | 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 140   | [view](/2023/challenge25.js) |
-
