@@ -6,12 +6,11 @@
 */
 
 function adjustLights(lights) {
-  let deltas = [0, 0]
+  let delta = 0
 
   for (const [k, v] of lights.entries()) {
-    deltas[0] += !!(!(k % 2) && v !== '🟢' || k % 2 && v === '🟢')
-    deltas[1] += !!(!(k % 2) && v === '🟢' || k % 2 && v !== '🟢')
+    delta += !(k % 2) && v != '🟢' || k % 2 && v == '🟢'
   }
 
-  return Math.min(...deltas)
+  return Math.min(delta, lights.length - delta)
 }
