@@ -7,37 +7,19 @@
 
 function organizeChristmasDinner(dishes) {
   const group = {}
-  const organizedChristmasDinner = []
 
-  dishes.forEach(([name, ...ingredients]) => {
-    const filteredIngredients = ingredients.filter(ingredient => {
-      let count = 0;
-
-      for (let i = 0; i < dishes.length; i++) {
-        count += !!(dishes[i].includes(ingredient))
-      }
-
-      return count > 1
-    })
-
-    if (filteredIngredients.length) {
-      filteredIngredients.forEach(item => {
-        if (item) {
-          if (group[item]) {
-            group[item].push(name)
-          } else {
-            group[item] = [name]
-          }
-        }
-      })
+  for (const [name, ...ingredients] of dishes) {
+    for (const item of ingredients) {
+      group[item] = group[item] ?? []
+      group[item].push(name)
     }
-  })
+  }
 
-  Object.entries(group).forEach(([ingredient, names]) => {
-    organizedChristmasDinner.push([
-      ingredient, ...names.sort((a, b) => a.localeCompare(b))
-    ])
-  })
+  const result = []
 
-  return organizedChristmasDinner.sort(([a], [b]) => a.localeCompare(b));
+  for (const [k, v] of Object.entries(group)) {
+    v.length > 1 && result.push([k, ...v.sort((a, b) => a.localeCompare(b))])
+  }
+
+  return result.sort((a, b) => a[0].localeCompare(b[0]))
 }

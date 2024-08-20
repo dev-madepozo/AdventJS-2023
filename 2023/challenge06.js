@@ -6,9 +6,14 @@
 */
 
 function maxDistance(movements) {
-  let dir = [...movements].find(item => item !== '*');
+  let distance = 0
+  let wildcard = 0
 
-  return [...movements].reduce((distance, mov) => {
-    return dir == mov || mov == '*' ? ++distance : --distance;
-  }, 0);
+  for (const mov of movements) {
+    distance += (mov == '>')
+    distance -= (mov == '<')
+    wildcard += (mov == '*')
+  }
+
+  return Math.abs(distance) + wildcard
 }
