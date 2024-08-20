@@ -10,9 +10,9 @@ function maxDistance(movements) {
   let wildcard = 0
 
   for (const mov of movements) {
-    distance += (mov == '>')
-    distance -= (mov == '<')
-    wildcard += (mov == '*')
+    distance += '>' == mov
+    distance -= '<' == mov
+    wildcard += '*' == mov
   }
 
   return Math.abs(distance) + wildcard
