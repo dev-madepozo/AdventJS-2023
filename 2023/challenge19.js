@@ -6,22 +6,22 @@
 */
 
 function revealSabotage(store) {
-  const newStore = []
-  for (let i = 0; i < store.length; i++) {
-    newStore[i] = []
-    for (let j = 0; j < store[i].length; j++) {
-      if (store[i][j] === '*') {
-        newStore[i][j] = '*'
-        continue
+  let upRow;
+  let downRow;
+
+  for (const [i, row] of store.entries()) {
+    downRow = store[i + 1]
+    for (const [j, value] of row.entries()) {
+      if (value != '*') {
+        const sum = 
+        (upRow?.[j-1] == '*') + (upRow?.[j] == '*') + (upRow?.[j+1] == '*') +
+        (row?.[j-1] == '*') + (row?.[j+1] == '*') + (downRow?.[j-1] == '*') +
+        (downRow?.[j] == '*') + (downRow?.[j+1] == '*')
+        row[j] = `${sum || ' '}`
       }
-      const newValue = [
-        store[i - 1]?.slice(j - 1 < 0 ? 0 : j - 1, j + 2),
-        store[i].slice(j - 1 < 0 ? 0 : j - 1, j + 2),
-        store[i + 1]?.slice(j - 1 < 0 ? 0 : j - 1, j + 2)
-      ].join('').match(/\*/g)?.length
-      newStore[i][j] = `${newValue || ' '}`;
     }
+    upRow = row
   }
 
-  return newStore
+  return store
 }
