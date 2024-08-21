@@ -17,7 +17,7 @@
 | 11  | 📖 [The studious elves](https://adventjs.dev/challenges/2023/11)             | 🟠    | 30    | [view](/2023/challenge11.js) |
 | 12  | 📸 [Is it a valid copy?](https://adventjs.dev/challenges/2023/12)            | 🟠    | 240   | [view](/2023/challenge12.js) |
 | 13  | ⌚️ [Calculating the time](https://adventjs.dev/challenges/2023/13)           | 🟢    | 270   | [view](/2023/challenge13.js) |
-| 14  | 🚨 [Avoid the alarm](https://adventjs.dev/challenges/2023/14)                | 🟠    |       |                              |
+| 14  | 🚨 [Avoid the alarm](https://adventjs.dev/challenges/2023/14)                | 🟠    | 290   | [view](/2023/challenge14.js) |
 | 15  | ↔️ [Autonomous robot](https://adventjs.dev/challenges/2023/15)                | 🟠    | 130   | [view](/2023/challenge15.js) |
 | 16  | ❌ [Friday deployment](https://adventjs.dev/challenges/2023/16)              | 🟢    |       |                              |
 | 17  | 🛷 [Optimizing the rental](https://adventjs.dev/challenges/2023/17)          | 🟢    | 160   | [view](/2023/challenge17.js) |
@@ -25,7 +25,7 @@
 | 19  | 💣 [Face the sabotage](https://adventjs.dev/challenges/2023/19)              | 🟠    | 160   | [view](/2023/challenge19.js) |
 | 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 190   | [view](/2023/challenge20.js) |
 | 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    | 140   | [view](/2023/challenge21.js) |
-| 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 170   | [view](/2023/challenge22.js) |
-| 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 130   | [view](/2023/challenge23.js) |
+| 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 230   | [view](/2023/challenge22.js) |
+| 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 160   | [view](/2023/challenge23.js) |
 | 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    |       |                              |
-| 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 140   | [view](/2023/challenge25.js) |
+| 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 190   | [view](/2023/challenge25.js) |
