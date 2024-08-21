@@ -7,12 +7,14 @@
 
 function createChristmasTree(ornaments, height) {
   let tree = ''
-  for (let i = 1, pos = 0; i <= height; i++) {
-    tree += ' '.repeat(height - i)
+  let pos = 0
 
-    for (let j = 1; j <= i; j++) {
-      tree += `${ornaments.at(pos)}${i - j ? ' ': ''}`
-      pos = !ornaments.at(pos + 1) ? 0 : pos + 1
+  for (const i of Array.from({ length: height}).keys()) {
+    tree += ' '.repeat(height - i - 1)
+
+    for (let j = 0; j <= i; j++) {
+      tree += `${ornaments[pos % ornaments.length]}${i - j ? ' ': ''}`
+      pos++
     }
 
     tree += '\n'
