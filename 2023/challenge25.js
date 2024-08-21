@@ -6,22 +6,19 @@
 */
 
 function travelDistance(map) {
-  const children = {}
-  let [sX, sY, distance] = [0, 0, 0]
-  
-  const rows = map.split('\n');
+  map = map.replace('S', '0')
+  const positions = {}
 
-  for (let i = 0; i < rows.length; i++) {
-    [...rows[i].matchAll(/[0-9]/gi)].forEach(item => {
-      children[item[0]] = [i, item.index]
-    })
-
-    if (rows[i].indexOf('S') !== -1) {
-      [sX, sY] = [i, rows[i].indexOf('S')]
+  for (const [i, row] of map.split('\n').entries()) {
+    for (const pos of [...row.matchAll(/\d/gi)]) {
+      positions[pos[0]] = [i, pos.index]
     }
   }
 
-  for (const [x, y] of Object.values(children)) {
+  let [sX, sY] = positions['0']
+  let distance = 0
+
+  for (const [x, y] of Object.values(positions)) {
     distance += Math.abs(x - sX) + Math.abs(y - sY);
     [sX, sY] = [x, y]
   }
