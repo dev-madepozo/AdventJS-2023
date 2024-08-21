@@ -6,19 +6,19 @@
 */
 
 function organizeGifts(gifts) {
-  let result = ''
+  let result = []
 
-  for (const item of gifts.match(/\d+\w/g)) {
-    let [quantity, name] = item.match(/[a-zA-Z]+|[0-9]+/g)
+  for (const [, qty, gift] of gifts.matchAll(/(\d+)(\w)/g)) {
+    const pallets = qty / 50 | 0
+    const boxes = (qty - (50 * pallets)) / 10 | 0
+    const bags = qty - (pallets * 50) - (boxes * 10)
 
-    result += `[${name}]`.repeat(quantity / 50 | 0)
-    quantity %= 50
-
-    result += `{${name}}`.repeat(quantity / 10 | 0)
-    quantity %= 10
-
-    result += `(${gift.repeat(qty)})`.repeat(!!qty)
+    result.push(
+      `[${gift}]`.repeat(pallets),
+      `{${gift}}`.repeat(boxes),
+      `(${gift.repeat(bags)})`.repeat(!!bags)
+    )
   }
 
-  return result
+  return result.join('')
 }
