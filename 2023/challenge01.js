@@ -6,5 +6,6 @@
 */
 
 function findFirstRepeated(gifts) {
-  return gifts.find((gift, index) => gifts.indexOf(gift) - index) ?? -1
+  const index = gifts.find((gift, index) => gifts.indexOf(gift) - index)
+  return [-1, index][+(index >= 0)]
 }
