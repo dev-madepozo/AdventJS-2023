@@ -13,8 +13,7 @@ function createChristmasTree(ornaments, height) {
     tree += ' '.repeat(height - i - 1)
 
     for (let j = 0; j <= i; j++) {
-      tree += `${ornaments[pos % ornaments.length]}${i - j ? ' ': ''}`
-      pos++
+      tree += `${ornaments[pos++ % ornaments.length]}${' '.repeat(!!(i - j))}`
     }
 
     tree += '\n'
