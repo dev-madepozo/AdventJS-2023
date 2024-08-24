@@ -7,13 +7,13 @@
 
 function maxDistance(movements) {
   let distance = 0
-  let wildcard = 0
+  let wildcards = 0
 
-  for (const mov of movements) {
-    distance += '>' == mov
-    distance -= '<' == mov
-    wildcard += '*' == mov
+  for (const movement of movements) {
+    distance += '>' == movement
+    distance -= '<' == movement
+    wildcards += '*' == movement
   }
 
-  return Math.abs(distance) + wildcard
+  return Math.abs(distance) + wildcards
 }
