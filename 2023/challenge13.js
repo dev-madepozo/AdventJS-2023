@@ -6,16 +6,13 @@
 */
 
 function calculateTime(deliveries) {
-  const date = new Date(null)
-  let totalTimeInSeconds = 25200 // 7 hours in seconds
-
-  for (const time of deliveries) {
-    const [h, m, s] = time.split(':')
-    totalTimeInSeconds -= (+s + 60 * m + 3600 * h)
+  let time = 25200 // 7 hours in seconds
+  for (const delivery of deliveries) {
+    const [h, m, s] = delivery.split(':')
+    time -= +s + 60 * m + 3600 * h
   }
 
-  let sign = ['', '-'].at(totalTimeInSeconds > 0)
-  date.setSeconds(Math.abs(totalTimeInSeconds))
+  let format = new Date(Math.abs(time) * 1000).toISOString().substring(11, 19)
 
-  return `${sign}${date.toISOString().substring(11, 19)}`
+  return [format, `-${format}`].at(time > 0)
 }
