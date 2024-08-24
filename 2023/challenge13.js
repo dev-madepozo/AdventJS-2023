@@ -1,27 +1,21 @@
 /*
   Challenge # 13
-  Title: Calculating the time
+  Title: ⌚️ Calculating the time
   Level: Easy
   Link: https://adventjs.dev/en/challenges/2023/13
 */
 
 function calculateTime(deliveries) {
-  let delta = 7 * 60 * 60
+  const date = new Date(null)
+  let totalTimeInSeconds = 25200 // 7 hours in seconds
 
   for (const time of deliveries) {
-    const [hh, mm, ss] = time.split(':')
-    delta -= (hh * 3600 + mm * 60 + +ss)
+    const [h, m, s] = time.split(':')
+    totalTimeInSeconds -= (+s + 60 * m + 3600 * h)
   }
 
-  let result = delta > 0 ? '-': ''
-  delta = Math.abs(delta)
-  result += `0${delta / 3600 | 0}:`.slice(-3)
-  delta %= 3600
-  result += `0${(delta % 3600) / 60 | 0}:`.slice(-3)
-  result += `0${delta % 60}`.slice(-2)
+  let sign = ['', '-'].at(totalTimeInSeconds > 0)
+  date.setSeconds(Math.abs(totalTimeInSeconds))
 
-  return result
+  return `${sign}${date.toISOString().substring(11, 19)}`
 }
-
-
-calculateTime(['00:10:00', '01:00:00', '03:30:00'])
