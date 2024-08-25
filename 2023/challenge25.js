@@ -16,8 +16,8 @@ function travelDistance(map) {
 
   for (const i of Array(totalChidren).keys()) {
     const cIndex = newMap.indexOf(i + 1)
-    const childPos = [cIndex / size | 0, cIndex % size]
-    ditance += Math.abs(santaX - childPos[0]) + Math.abs(santaY - childPos[1]);
+    const child = [cIndex / size | 0, cIndex % size]
+    ditance += Math.abs(santaX - child[0]) + Math.abs(santaY - child[1]);
     [santaX, santaY] = childPos
   }
 
