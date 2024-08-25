@@ -4,7 +4,7 @@
 
 |  #  | Title                                                                       | Level | Score | Solution                     |
 | :-: | :-------------------------------------------------------------------------- | :---: | :---: | :--------------------------: |
-| 01  | 🎁 [First gift repeated!](https://adventjs.dev/challenges/2023/1)            | 🟢    | 330   | [view](/2023/challenge01.js) |
+| 01  | 🎁 [First gift repeated!](https://adventjs.dev/challenges/2023/1)            | 🟢    | 380   | [view](/2023/challenge01.js) |
 | 02  | 🏭 [We start the factory](https://adventjs.dev/challenges/2023/2)            | 🟢    | 280   | [view](/2023/challenge02.js) |
 | 03  | 😏 [The naughty elf](https://adventjs.dev/challenges/2023/3)                 | 🟢    | 360   | [view](/2023/challenge03.js) |
 | 04  | 😵‍💫 [Turn the parentheses around](https://adventjs.dev/challenges/2023/4)     | 🟠    | 280   | [view](/2023/challenge04.js) |
@@ -21,7 +21,7 @@
 | 15  | ↔️ [Autonomous robot](https://adventjs.dev/challenges/2023/15)                | 🟠    | 130   | [view](/2023/challenge15.js) |
 | 16  | ❌ [Friday deployment](https://adventjs.dev/challenges/2023/16)              | 🟢    | 110   | [view](/2023/challenge16.js) |
 | 17  | 🛷 [Optimizing the rental](https://adventjs.dev/challenges/2023/17)          | 🟢    | 160   | [view](/2023/challenge17.js) |
-| 18  | 🔢 [The digital clock](https://adventjs.dev/challenges/2023/18)              | 🔴    | 70    | [view](/2023/challenge18.js) |
+| 18  | 🔢 [The digital clock](https://adventjs.dev/challenges/2023/18)              | 🔴    | 90    | [view](/2023/challenge18.js) |
 | 19  | 💣 [Face the sabotage](https://adventjs.dev/challenges/2023/19)              | 🟠    | 160   | [view](/2023/challenge19.js) |
 | 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 190   | [view](/2023/challenge20.js) |
 | 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    | 140   | [view](/2023/challenge21.js) |
