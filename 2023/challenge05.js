@@ -1,22 +1,24 @@
 /*
   Challenge # 05
-  Title: Santa's CyberTruck
+  Title: 🛷 Santa's CyberTruck
   Level: Medium
   Link: https://adventjs.dev/en/challenges/2023/5
 */
 
 function cyberReindeer(road, time) {
-  const moves = [road]
+  const roads = [road]
+  let char = '.'
+  let pos = 1
 
-  for (const i in Array.from({ length: time - 1})) {
-    const move = i == 4 ? moves[i].replaceAll('|', '*') : moves[i];
-    moves.push(
-      move.replace(
-        /(S\.|S\*)/,
-        `${'|*'.includes(road[move.indexOf('S')]) ? '*' : '.'}S`
-      ) 
-    );
+  for (const i of Array.from({ length: time - 1}).keys()) {
+    let nextRoad = [roads[i], roads[i].replaceAll('|', '*')][+(i == 4)]
+
+    if (nextRoad[pos] !== '|') {
+      [char, nextRoad] = [nextRoad[pos++], nextRoad.replace(/S./, `${char}S`)]
+    }
+
+    roads[i + 1] = nextRoad
   }
 
-  return moves;
+  return roads;
 }
