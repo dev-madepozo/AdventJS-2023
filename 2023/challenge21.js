@@ -7,16 +7,18 @@
 
 function findBalancedSegment(message) {
   let balance = []
-  let maxLength = 0
+  let maxRange = 0
 
   for (const i of message.keys()) {
-    const nums = [0, 0]
-    for (let j = i; j < message.length; j++) {
-      nums[message[j]] += 1
+    const counts = [0, 0]
 
-      if (nums[0] == nums[1] && (j - i) > maxLength) {
+    for (let j = i; j < message.length; j++) {
+      counts[message[j]]++
+      const condition = ((counts[0] == counts[1]) + ((j - i) > maxRange)) - 1
+
+      if (condition > 0) {
         balance = [i, j]
-        maxLength = j - i
+        maxRange = j - i
       }
     }
   }
