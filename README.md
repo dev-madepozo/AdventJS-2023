@@ -27,5 +27,5 @@
 | 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    | 140   | [view](/2023/challenge21.js) |
 | 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 230   | [view](/2023/challenge22.js) |
 | 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 160   | [view](/2023/challenge23.js) |
-| 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    |       |                              |
+| 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    | 40    | [view](/2023/challenge24.js) |
 | 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 270   | [view](/2023/challenge25.js) |
