@@ -1,6 +1,6 @@
 /*
   Challenge # 09
-  Title: Switch the lights
+  Title: 🚦 Switch the lights
   Level: Easy
   Link: https://adventjs.dev/en/challenges/2023/9
 */
