@@ -24,8 +24,8 @@
 | 18  | 🔢 [The digital clock](https://adventjs.dev/challenges/2023/18)              | 🔴    | 90    | [code](/2023/challenge18.js) |
 | 19  | 💣 [Face the sabotage](https://adventjs.dev/challenges/2023/19)              | 🟠    | 160   | [code](/2023/challenge19.js) |
 | 20  | 🏋️‍♂️ [Distribute the weight](https://adventjs.dev/challenges/2023/20)          | 🔴    | 190   | [code](/2023/challenge20.js) |
-| 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    | 160   | [code](/2023/challenge21.js) |
+| 21  | 🪐 [Binary message](https://adventjs.dev/challenges/2023/21)                 | 🟠    | 110   | [code](/2023/challenge21.js) |
 | 22  | 🚂 [Programming language](https://adventjs.dev/challenges/2023/22)           | 🟢    | 230   | [code](/2023/challenge22.js) |
 | 23  | 🍽️ [Christmas dinner](https://adventjs.dev/challenges/2023/23)               | 🟢    | 160   | [code](/2023/challenge23.js) |
-| 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    | 60    | [code](/2023/challenge24.js) |
+| 24  | 🪜 [Jump on the stairs](https://adventjs.dev/challenges/2023/24)             | 🟠    | 30    | [code](/2023/challenge24.js) |
 | 25  | 🗺️ [Calculating distances](https://adventjs.dev/challenges/2023/25)          | 🟠    | 270   | [code](/2023/challenge25.js) |
