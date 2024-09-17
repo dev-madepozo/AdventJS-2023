@@ -11,5 +11,5 @@ function decode(message) {
     message = message.replace(matched, [...value].reverse().join(''))
   }
 
-  return message;
+  return message
 }
