@@ -20,5 +20,5 @@ function cyberReindeer(road, time) {
     roads[i + 1] = nextRoad
   }
 
-  return roads;
+  return roads
 }
