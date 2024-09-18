@@ -2,7 +2,7 @@
 
 ## List Challenges
 
-|  #  | Title                                                                       | Level | Score | Solution                     |
+|  #  | Title                                                                       | Difficulty | Score | Solution                |
 | :-: | :-------------------------------------------------------------------------- | :---: | :---: | :--------------------------: |
 | 01  | 🎁 [First gift repeated!](https://adventjs.dev/challenges/2023/1)            | 🟢    | 380   | [code](/2023/challenge01.js) |
 | 02  | 🏭 [We start the factory](https://adventjs.dev/challenges/2023/2)            | 🟢    | 280   | [code](/2023/challenge02.js) |
