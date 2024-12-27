@@ -2,7 +2,7 @@
   Challenge # 10
   Title: 🎄 Create your own Christmas tree
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/10
+  Link: https://2023.adventjs.dev/en/challenges/2023/10
 */
 
 function createChristmasTree(ornaments, height) {

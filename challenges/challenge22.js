@@ -2,7 +2,7 @@
   Challenge # 22
   Title: 🚂 Programming language
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/22
+  Link: https://2023.adventjs.dev/en/challenges/2023/22
 */
 
 function compile(code) {

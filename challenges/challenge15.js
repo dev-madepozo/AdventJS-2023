@@ -2,7 +2,7 @@
   Challenge # 15
   Title: ↔️ Autonomous robot
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/15
+  Link: https://2023.adventjs.dev/en/challenges/2023/15
 */
 
 function autonomousDrive(store, movements) {

@@ -2,7 +2,7 @@
   Challenge # 19
   Title: 💣 Face the sabotage
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/19
+  Link: https://2023.adventjs.dev/en/challenges/2023/19
 */
 
 function revealSabotage(store) {

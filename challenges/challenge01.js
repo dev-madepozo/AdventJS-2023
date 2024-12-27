@@ -2,7 +2,7 @@
   Challenge # 01
   Title: 🎁 First gift repeated!
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/1
+  Link: https://2023.adventjs.dev/en/challenges/2023/1
 */
 
 function findFirstRepeated(gifts) {

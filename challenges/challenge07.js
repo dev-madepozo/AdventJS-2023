@@ -2,7 +2,7 @@
   Challenge # 07
   Title: 📦 The 3D boxes
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/7
+  Link: https://2023.adventjs.dev/en/challenges/2023/7
 */
 
 function drawGift(size, symbol) {

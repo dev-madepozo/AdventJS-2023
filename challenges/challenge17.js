@@ -2,7 +2,7 @@
   Challenge # 17
   Title: 🛷 Optimizing the rental
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/17
+  Link: https://2023.adventjs.dev/en/challenges/2023/17
 */
 
 function optimizeIntervals(intervals) {

@@ -2,7 +2,7 @@
   Challenge # 13
   Title: ⌚️ Calculating the time
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/13
+  Link: https://2023.adventjs.dev/en/challenges/2023/13
 */
 
 function calculateTime(deliveries) {

@@ -2,7 +2,7 @@
   Challenge # 20
   Title: 🏋️‍♂️ Distribute the weight
   Level: Hard
-  Link: https://adventjs.dev/en/challenges/2023/20
+  Link: https://2023.adventjs.dev/en/challenges/2023/20
 */
 
 function distributeGifts(weights) {

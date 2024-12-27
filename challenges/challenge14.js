@@ -2,7 +2,7 @@
   Challenge # 14
   Title: 🚨 Autonomous robot
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/14
+  Link: https://2023.adventjs.dev/en/challenges/2023/14
 */
 
 function maxGifts(houses) {

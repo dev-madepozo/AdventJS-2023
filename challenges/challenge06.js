@@ -2,7 +2,7 @@
   Challenge # 06
   Title: 🦌 The reindeer on trial
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/6
+  Link: https://2023.adventjs.dev/en/challenges/2023/6
 */
 
 function maxDistance(movements) {

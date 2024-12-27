@@ -2,7 +2,7 @@
   Challenge # 18
   Title: 🔢 The digital clock
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/18
+  Link: https://2023.adventjs.dev/en/challenges/2023/18
 */
 
 function drawClock(time) {

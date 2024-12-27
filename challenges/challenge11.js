@@ -2,7 +2,7 @@
   Challenge # 11
   Title: 📖 The studious elves
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/11
+  Link: https://2023.adventjs.dev/en/challenges/2023/11
 */
 
 function getIndexsForPalindrome2(word) {

@@ -2,7 +2,7 @@
   Challenge # 16
   Title: ❌ Friday deployment
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/16
+  Link: https://2023.adventjs.dev/en/challenges/2023/16
 */
 
 function transformTree(tree) {

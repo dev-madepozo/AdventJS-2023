@@ -2,7 +2,7 @@
   Challenge # 12
   Title: 📸 Is it a valid copy?
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/12
+  Link: https://2023.adventjs.dev/en/challenges/2023/12
 */
 
 function checkIsValidCopy(original, copy) {

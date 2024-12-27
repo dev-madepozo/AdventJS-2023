@@ -2,7 +2,7 @@
   Challenge # 24
   Title: 🪜 Jump on the stairs
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/24
+  Link: https://2023.adventjs.dev/en/challenges/2023/24
 */
 
 function getStaircasePaths(steps, maxJump) {

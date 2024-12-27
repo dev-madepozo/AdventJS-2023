@@ -2,7 +2,7 @@
   Challenge # 08
   Title: 🏬 Sorting the warehouse
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/8
+  Link: https://2023.adventjs.dev/en/challenges/2023/8
 */
 
 function organizeGifts(gifts) {

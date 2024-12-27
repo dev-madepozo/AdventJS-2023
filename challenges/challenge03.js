@@ -2,7 +2,7 @@
   Challenge # 03
   Title: 😏 The naughty elf
   Level: Easy
-  Link: https://adventjs.dev/en/challenges/2023/3
+  Link: https://2023.adventjs.dev/en/challenges/2023/3
 */
 
 function findNaughtyStep(original, modified) {

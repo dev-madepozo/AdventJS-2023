@@ -2,7 +2,7 @@
   Challenge # 05
   Title: 🛷 Santa's CyberTruck
   Level: Medium
-  Link: https://adventjs.dev/en/challenges/2023/5
+  Link: https://2023.adventjs.dev/en/challenges/2023/5
 */
 
 function cyberReindeer(road, time) {
